@@ -1,0 +1,104 @@
+.containers--wrapper{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.loginPanel--container{
+    /* border: 1px solid black; */
+    width:40%;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    /* height:80vh; */
+    padding: 40px;
+    background-color: #435c70;
+    /* box-shadow: 1px 1px 5px 0 #455c71; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.smallContainer{
+    padding: 40px;
+    background-color: #435c70;
+    margin-left: -5px;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    /* max-width: 425px; */
+    width: 36%;
+    height: fit-content;
+    padding-left: 40px;
+    padding-right: 40px;
+    /* margin-right: -10px; */
+}
+.rightContainer{
+    padding: 40px;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    width:62%;
+    background-color: #435c70;
+    margin-left: -5px;
+}
+.loginPanel--title,.container--title{
+    /* font-size: 1.1rem; */
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 30px;
+    /* border: 1px solid red; */
+}
+
+.loginPanel--title{
+    text-align: center;
+}
+.Input--wrapper{
+    margin-bottom: 15px;
+}
+.Input--wrapper--container{
+    width: 49.5%;
+}
+.Input--wrapper label{
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.Input--wrapper input,.Input--wrapper select,textarea{
+    padding: 19px 18px;
+    border-radius: 0;
+    height: 50px;
+    width: 100%;
+    border: none;
+    background-color: #54657d;
+    color: #fff;
+    resize:vertical;
+}
+.Input--wrapper select{
+    height: 55px;
+    width: 100%;
+    border: none;
+    color: #acc6de;
+    appearance: none;
+    padding: 15px;
+    background: url('https://templatemo.com/templates/templatemo_524_product_admin/img/arrow-down.png') 98% no-repeat #50657b;
+
+}
+.forgot-btn{
+    margin-top: 48px;
+}
+@media (max-width:420px){
+    .containers--wrapper{
+        display:block;
+    }
+    .Input--wrapper--container{
+        width: 100%;
+    }
+    .smallContainer{
+        padding: 20px;
+        width: 100%;
+    }
+    .rightContainer{
+        width: 100%;
+        padding: 20px;
+        margin-right: -5px;
+        margin-top: 15px;
+    }
+    .loginPanel--container{
+        width: 100%;
+    }
+    .forgot-btn{
+        margin-top:20px
+    }
+}
